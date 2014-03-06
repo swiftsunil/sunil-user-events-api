@@ -20,4 +20,3 @@ build/
 dist/
 target/
 test-output/
-pom.xml
