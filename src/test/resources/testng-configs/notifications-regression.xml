@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd">
+<suite name="Notifications_Regression" time-out="15000">
+    <test name="Notifications_Regression">
+        <packages>
+            <package name="com.pearson.qa.notifications.functionaltests.*"> </package>
+        </packages>
+        <groups>
+            <run>
+                <exclude name="Bug" />
+            </run>
+        </groups>
+    </test>
+</suite>

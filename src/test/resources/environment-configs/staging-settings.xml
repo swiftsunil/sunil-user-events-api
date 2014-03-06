@@ -1,0 +1,36 @@
+<settings>
+    <com>
+        <pearson>
+            <qa>
+                <common>
+                    <ziggyfw>
+                        <http>
+                            <contexts>
+                                <HttpContext>
+                                    <requestTimeoutMilliseconds>90000</requestTimeoutMilliseconds>
+                                </HttpContext>
+                            </contexts>
+                        </http>
+                        <mongo>
+                            <contexts>
+                                <MongoContext>
+                                    <host>10.199.246.168</host>
+                                    <port>27017</port>
+                                </MongoContext>
+                            </contexts>
+                        </mongo>
+                    </ziggyfw>
+                </common>
+                <notifications>
+                    <ziggyfw>
+                        <contexts>
+                            <Context>
+                                <host>notifications-api.dev-openclass.com</host>
+                            </Context>
+                        </contexts>
+                    </ziggyfw>
+                </notifications>
+            </qa>
+        </pearson>
+    </com>
+</settings>
